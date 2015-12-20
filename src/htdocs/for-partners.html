@@ -1,0 +1,121 @@
+{% extends "./layout.html" %}
+
+{% block title %}
+	För partners
+{% endblock %}
+
+{% block content %}
+<div class="hero hero--partners">
+	<div class="hero__img hero__img--partners"></div>
+	<div class="jumbotron-pusher">
+		<div class="jumbotron">
+			<h2 class="jumbotron__tagline">Väx med FitnessCollection</h2>
+			<p class="jumbotron__description">Vi samarbetar med de bästa träningsanläggningarna inom fitness, hälsa och sport för att hjälpa dem hitta nya kunder och öka sina intäkter.</p>
+		</div>
+		<!-- /.jumbotron -->
+	</div>
+	<!-- /.jumbotron-pusher -->
+</div>
+<!-- /.hero -->
+
+<section class="section">
+	<div class="container">
+		<h2 class="section__title">Med FitnessCollection får du</h2>
+
+		<div class="for-partners__grid">
+			<div class="for-partners__item">
+				<div class="for-partners__icon">
+					<i class="fa fa-users"></i>
+				</div>
+				<h4>Nya nyfikna kunder</h4>
+				<p>Visa hur bra dina klasser och instruktörer är för en helt ny målgrupp av fitness­entusiaster.</p>
+			</div>
+			<div class="for-partners__item">
+				<div class="for-partners__icon">
+					<i class="fa fa-money"></i>
+				</div>
+				<h4>Extra intäkter</h4>
+				<p>Vi fyller dina osålda platser och ger dig betalt för varje nytt kundbesök.</p>
+			</div>
+			<div class="for-partners__item">
+				<div class="for-partners__icon">
+					<i class="fa fa-trademark"></i>
+				</div>
+				<h4>Marknadsför ditt varumärke</h4>
+				<p>Genom FitnessCollection får du ut ditt varumärke till tusentals nya potentiella medlemmar.</p>
+			</div>
+			<div class="for-partners__item">
+				<div class="for-partners__icon">
+					<i class="fa fa-bar-chart"></i>
+				</div>
+				<h4>Merförsäljning</h4>
+				<p>Mer kunder ger mer försäljning av drycker, bars, träningsutrustning, mm</p>
+			</div>
+		</div>
+		<!-- /.for-partners__grid -->
+	</div>
+</section>
+<!-- /.section -->
+
+<div class="partners-quote">
+	<div class="partners-quote__inner">
+		<blockquote>
+			<p>“En otrolig känsla att få betalt för att marknadsföra oss.”</p>
+		</blockquote>
+	</div>
+	<!-- /.partners-quote__inner -->
+</div>
+<!-- /.partners-quote -->
+
+<section class="section">
+	<div class="container">
+
+		<h2 class="section__title">Redo att bli en del av FitnessCollection?</h2>
+
+		<p class="section__text">Vänligen fyll i formuläret här nedan så kommer vi kontakta dig så snart som möjligt!</p>
+
+		<div class="partners__form">
+
+			<div id="mc_embed_signup">
+				<form id="signupPartners" class="partner-signup" novalidate="novalidate">
+					<div class="partner-signup__field">
+						<label for="mce-EMAIL">
+							<input type="email" value="" name="EMAIL" class="partner-signup__input blur-input" id="mce-EMAIL" data-error="Vänligen fyll i din email" aria-required="true">
+							<span class="partner-signup__label">Email <span class="asterisk">*</span></span>
+						</label>
+					</div>
+					<div class="partner-signup__field">
+						<label for="mce-POSTNR">
+							<input type="text" value="" name="POSTNR" class="partner-signup__input blur-input" id="mce-POSTNR" maxlength="6" data-error="Vänligen fyll i ditt postnummer">
+							<span class="partner-signup__label">Postnummer <span class="asterisk">*</span></span>
+						</label>
+					</div>
+					<div class="partner-signup__field">
+						<label for="mce-NAME">
+							<input type="text" value="" name="NAME" class="partner-signup__input blur-input" id="mce-NAME">
+							<span class="partner-signup__label">Namn</span>
+						</label>
+					</div>
+					<div class="partner-signup__field">
+						<label for="mce-FORETAG">
+							<input type="text" value="" name="FORETAG" class="partner-signup__input blur-input" id="mce-FORETAG">
+							<span class="partner-signup__label">Företag</span>
+						</label>
+					</div>
+					<div style="position: absolute; left: -5000px;">
+						<input type="text" name="b_17ce512bda68d79def8e6647a_24276ae15c" tabindex="-1" value="">
+					</div>
+					<input type="submit" class="partner-signup__submit" value="Anmäl er nu!">
+					<div id="mce-MESSAGES" class="sign-up__messages"></div>
+				</form>
+			</div>
+
+		</div>
+		<!-- /.partners__form -->
+
+	</div>
+	<!-- /.container -->
+</section>
+<!-- /.section -->
+
+{% endblock %}

@@ -1,0 +1,25 @@
+{
+  "name": "fitnesscollection-landing",
+  "version": "1.0.0",
+  "homepage": "https://github.com/SymbioSweden/FitnessCollectionLanding",
+  "authors": [
+    "Johnie Hjelm <johnie.hjelm@symbio.com>"
+  ],
+  "description": "Landing page for FitnessCollection",
+  "main": "Gulpfile.js",
+  "moduleType": [
+    "amd",
+    "es6"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.3"
+  }
+}
